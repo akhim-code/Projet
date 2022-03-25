@@ -20,6 +20,10 @@ public class Animal {
         this.nom = nom;
     }
 
+    public void setNomAbobo() {
+        this.nom = "abobo";
+    }
+
     public String getEspece() {
         return espece;
     }

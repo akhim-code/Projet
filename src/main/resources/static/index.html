@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Requetes avec boutons</title>
+</head>
+<body>
+<!-- Créez la page requetesAvecBoutons.html qui contient un bouton « effectuer une requête GET »
+et qui affiche avec un alert le résultat de la requête $.get sur la page localhost:8080/API/mesTestsHTTP -->
+
+<button id="buttonGet">Effectuer une requête GET</button>
+<br/>
+<button id="buttonPost">Effectuer une requête POST</button>
+<br/>
+<button id="buttonDELETE">Effectuer une requête DELETE</button>
+<br/>
+<button id="buttonPATCH">Effectuer une requête PATCH</button>
+<br/>
+<button id="buttonPUT">Effectuer une requête PUT</button>
+
+<script src='http://code.jquery.com/jquery.min.js'></script>
+<script>
+    // Button get
+    $("#buttonGet").click(()=>{
+        $.get("http://localhost:8080/API/mesTestsHTTP", (response)=>{
+            alert(response);
+        });
+    });
+
+    // Button post
+    $("#buttonPost").click(()=>{
+        $.post("http://localhost:8080/API/mesTestsHTTP", (response)=>{
+            alert(response);
+        });
+    });
+
+</script>
+
+</body>
+</html>

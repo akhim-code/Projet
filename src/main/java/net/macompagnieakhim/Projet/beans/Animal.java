@@ -36,7 +36,7 @@ public class Animal {
         this.age = age;
     }
     public void setAgeZero(int age) {
-        this.age = 1;
+        this.age = 3;
     }
     @Override
     public String toString() {

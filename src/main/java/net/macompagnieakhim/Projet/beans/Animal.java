@@ -1,5 +1,6 @@
 package net.macompagnieakhim.Projet.beans;
 
+//tout le monde aime les animals
 public class Animal {
     private String nom = "";
     private String espece  = "";
@@ -34,7 +35,9 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
-
+    public void setAgeZero(int age) {
+        this.age = 0;
+    }
     @Override
     public String toString() {
         return "Animal{nom='" + nom + "', espece='" + espece + "', age=" + age + "}";

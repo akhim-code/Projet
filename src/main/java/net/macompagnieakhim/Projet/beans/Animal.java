@@ -1,5 +1,6 @@
 package net.macompagnieakhim.Projet.beans;
 
+//tout le monde aime les animals
 public class Animal {
 
     private String nom = "";

@@ -1,11 +1,10 @@
 package net.macompagnieakhim.Projet.beans;
 
 public class Animal {
-    //N'importe quoi
     private String nom = "";
     private String espece  = "";
     private int age = 0;
-
+    //helloworld
     public Animal(String nom, String espece, int age) {
         this.nom = nom;
         this.espece = espece;

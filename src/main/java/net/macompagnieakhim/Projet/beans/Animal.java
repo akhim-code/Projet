@@ -21,7 +21,7 @@ public class Animal {
     }
 
     public void setNomAbobo() {
-        this.nom = "abobo";
+        this.nom = "antoine";
     }
 
     public String getEspece() {
@@ -40,7 +40,7 @@ public class Animal {
         this.age = age;
     }
     public void setAgeZero(int age) {
-        this.age = 5;
+        this.age = 17;
     }
     @Override
     public String toString() {
